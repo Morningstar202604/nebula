@@ -1,0 +1,36 @@
+{
+  "$schema": "https://v2-8-13.turborepo.dev/schema.json",
+  "globalEnv": ["CI", "NEBULA_DISABLE_SHARE"],
+  "globalPassThroughEnv": ["CI", "NEBULA_DISABLE_SHARE"],
+  "tasks": {
+    "typecheck": {},
+    "build": {
+      "dependsOn": [],
+      "outputs": ["dist/**"]
+    },
+    "nebula#test": {
+      "dependsOn": ["^build"],
+      "outputs": [],
+      "passThroughEnv": ["*"]
+    },
+    "@nebula-ai/core#test": {
+      "dependsOn": ["^build"],
+      "outputs": []
+    },
+    "@nebula-ai/function#test": {
+      "outputs": []
+    },
+    "@nebula-ai/app#test": {
+      "dependsOn": ["^build"],
+      "outputs": []
+    },
+    "@nebula-ai/ui#test": {
+      "dependsOn": ["^build"],
+      "outputs": []
+    },
+    "@nebula-ai/session-ui#test": {
+      "dependsOn": ["^build"],
+      "outputs": []
+    }
+  }
+}

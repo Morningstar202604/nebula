@@ -1,0 +1,78 @@
+---
+title: 生态系统
+description: 基于 Nebula 构建的项目与集成。
+---
+
+基于 Nebula 构建的社区项目合集。
+
+:::note
+想将您的 Nebula 相关项目添加到此列表中？欢迎提交 PR。
+:::
+
+您还可以查看 [awesome-nebula](https://github.com/awesome-nebula/awesome-nebula) 和 [nebula.cafe](https://nebula.cafe)，这是一个聚合生态系统与社区资源的社区。
+
+---
+
+## 插件
+
+| 名称                                                                                               | 描述                                                                   |
+| -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| [nebula-daytona](https://github.com/daytonaio/daytona/tree/main/libs/nebula-plugin)            | 在隔离的 Daytona 沙箱中自动运行 Nebula 会话，支持 git 同步和实时预览 |
+| [nebula-helicone-session](https://github.com/H2Shami/nebula-helicone-session)                  | 自动注入 Helicone 会话头信息，用于请求分组                             |
+| [nebula-type-inject](https://github.com/nick-vi/nebula-type-inject)                            | 通过查找工具自动将 TypeScript/Svelte 类型注入到文件读取中              |
+| [nebula-openai-codex-auth](https://github.com/numman-ali/nebula-openai-codex-auth)             | 使用您的 ChatGPT Plus/Pro 订阅替代 API 额度                            |
+| [nebula-gemini-auth](https://github.com/jenslys/nebula-gemini-auth)                            | 使用您现有的 Gemini 套餐替代 API 计费                                  |
+| [nebula-antigravity-auth](https://github.com/NoeFabris/nebula-antigravity-auth)                | 使用 Antigravity 的免费模型替代 API 计费                               |
+| [nebula-devcontainers](https://github.com/athal7/nebula-devcontainers)                         | 多分支开发容器隔离，支持浅克隆和自动分配端口                           |
+| [nebula-google-antigravity-auth](https://github.com/shekohex/nebula-google-antigravity-auth)   | Google Antigravity OAuth 插件，支持 Google 搜索及更强健的 API 处理     |
+| [nebula-dynamic-context-pruning](https://github.com/Tarquinen/nebula-dynamic-context-pruning)  | 通过修剪过时的工具输出来优化 Token 使用                                |
+| [nebula-vibeguard](https://github.com/inkdust2021/nebula-vibeguard)                            | 在调用 LLM 之前将机密/PII 替换为 VibeGuard 风格的占位符；并在本地恢复  |
+| [nebula-websearch-cited](https://github.com/ghoulr/nebula-websearch-cited.git)                 | 为受支持的提供商添加原生网页搜索支持，采用 Google grounded 风格        |
+| [nebula-pty](https://github.com/shekohex/nebula-pty.git)                                       | 使 AI 代理能够在 PTY 中运行后台进程，并向其发送交互式输入              |
+| [nebula-shell-strategy](https://github.com/JRedeker/nebula-shell-strategy)                     | 非交互式 shell 命令指令——防止依赖 TTY 的操作导致挂起                   |
+| [nebula-wakatime](https://github.com/angristan/nebula-wakatime)                                | 使用 Wakatime 追踪 Nebula 的使用情况                                 |
+| [nebula-md-table-formatter](https://github.com/franlol/nebula-md-table-formatter/tree/main)    | 清理 LLM 生成的 Markdown 表格                                          |
+| [nebula-morph-plugin](https://github.com/morphllm/nebula-morph-plugin)                         | 通过 Morph 提供 Fast Apply 编辑、WarpGrep 代码搜索和上下文压缩         |
+| [oh-my-nebula](https://github.com/code-yeongyu/oh-my-nebula)                                   | 后台代理、预构建的 LSP/AST/MCP 工具、精选代理，兼容 Claude Code        |
+| [nebula-notificator](https://github.com/panta82/nebula-notificator)                            | Nebula 会话的桌面通知和声音提醒                                      |
+| [nebula-notifier](https://github.com/mohak34/nebula-notifier)                                  | 针对权限请求、任务完成和错误事件的桌面通知与声音提醒                   |
+| [nebula-zellij-namer](https://github.com/24601/nebula-zellij-namer)                            | 基于 Nebula 上下文的 AI 驱动自动 Zellij 会话命名                     |
+| [nebula-skillful](https://github.com/zenobi-us/nebula-skillful)                                | 允许 Nebula 代理通过技能发现和注入按需延迟加载提示词                 |
+| [nebula-supermemory](https://github.com/supermemoryai/nebula-supermemory)                      | 使用 Supermemory 实现跨会话的持久记忆                                  |
+| [@plannotator/nebula](https://github.com/backnotprop/plannotator/tree/main/apps/nebula-plugin) | 支持可视化标注和私有/离线分享的交互式计划审查                          |
+| [@openspoon/subtask2](https://github.com/spoons-and-mirrors/subtask2)                              | 将 Nebula /commands 扩展为具有精细流程控制的强大编排系统             |
+| [nebula-scheduler](https://github.com/different-ai/nebula-scheduler)                           | 使用 cron 语法通过 launchd (Mac) 或 systemd (Linux) 调度周期性任务     |
+| [micode](https://github.com/vtemian/micode)                                                        | 结构化的头脑风暴 → 计划 → 实现工作流，支持会话连续性                   |
+| [octto](https://github.com/vtemian/octto)                                                          | 用于 AI 头脑风暴的交互式浏览器 UI，支持多问题表单                      |
+| [nebula-background-agents](https://github.com/kdcokenny/nebula-background-agents)              | Claude Code 风格的后台代理，支持异步委托和上下文持久化                 |
+| [nebula-notify](https://github.com/kdcokenny/nebula-notify)                                    | Nebula 的原生操作系统通知——随时了解任务完成情况                      |
+| [nebula-workspace](https://github.com/kdcokenny/nebula-workspace)                              | 捆绑式多代理编排套件——16 个组件，一次安装                              |
+| [nebula-worktree](https://github.com/kdcokenny/nebula-worktree)                                | Nebula 的零摩擦 git worktree 管理                                    |
+| [nebula-sentry-monitor](https://github.com/stolinski/nebula-sentry-monitor)                    | 使用 Sentry AI Monitoring 追踪和调试您的 AI 代理                       |
+
+---
+
+## 项目
+
+| 名称                                                                                       | 描述                                                          |
+| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------- |
+| [kimaki](https://github.com/remorses/kimaki)                                               | 用于控制 Nebula 会话的 Discord 机器人，基于 SDK 构建        |
+| [nebula.nvim](https://github.com/NickvanDyke/nebula.nvim)                              | Neovim 插件，提供编辑器感知的提示词，基于 API 构建            |
+| [portal](https://github.com/hosenur/portal)                                                | 通过 Tailscale/VPN 使用的移动优先 Nebula Web UI             |
+| [nebula plugin template](https://github.com/zenobi-us/nebula-plugin-template/)         | 用于构建 Nebula 插件的模板                                  |
+| [nebula.nvim](https://github.com/sudo-tee/nebula.nvim)                                 | Nebula 的 Neovim 前端——基于终端的 AI 编码代理               |
+| [ai-sdk-provider-nebula-sdk](https://github.com/ben-vargas/ai-sdk-provider-nebula-sdk) | Vercel AI SDK 提供商，用于通过 @nebula-ai/sdk 使用 Nebula |
+| [OpenChamber](https://github.com/btriapitsyn/openchamber)                                  | Nebula 的 Web / 桌面应用和 VS Code 扩展                     |
+| [Nebula-Obsidian](https://github.com/mtymek/nebula-obsidian)                           | 将 Nebula 嵌入 Obsidian UI 的 Obsidian 插件                 |
+| [OpenWork](https://github.com/different-ai/openwork)                                       | Claude Cowork 的开源替代方案，由 Nebula 驱动                |
+| [ocx](https://github.com/kdcokenny/ocx)                                                    | Nebula 扩展管理器，支持可移植的隔离配置                     |
+| [CodeNomad](https://github.com/NeuralNomadsAI/CodeNomad)                                   | Nebula 的桌面、Web、移动和远程客户端应用                    |
+
+---
+
+## 代理
+
+| 名称                                                              | 描述                                     |
+| ----------------------------------------------------------------- | ---------------------------------------- |
+| [Agentic](https://github.com/Cluster444/agentic)                  | 用于结构化开发的模块化 AI 代理和命令     |
+| [nebula-agents](https://github.com/darrenhinde/nebula-agents) | 用于增强工作流的配置、提示词、代理和插件 |

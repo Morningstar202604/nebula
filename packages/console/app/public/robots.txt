@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Disallow shared content pages
+Disallow: /s/
+Disallow: /share/
+
+Sitemap: https://nebula.ai/sitemap.xml
+Sitemap: https://nebula.ai/data/sitemap.xml

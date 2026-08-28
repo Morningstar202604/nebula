@@ -1,0 +1,78 @@
+---
+title: Экосистема
+description: Проекты и интеграции, созданные с помощью Nebula.
+---
+
+Коллекция проектов сообщества, построенных на Nebula.
+
+:::note
+Хотите добавить свой проект, связанный с Nebula, в этот список? Разместите PR.
+:::
+
+Вы также можете посетить [awesome-nebula](https://github.com/awesome-nebula/awesome-nebula) и [nebula.cafe](https://nebula.cafe) — хаб, объединяющий экосистему и сообщество.
+
+---
+
+## Плагины
+
+| Имя                                                                                                | Описание                                                                                                                                         |
+| -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [nebula-daytona](https://github.com/daytonaio/daytona/tree/main/libs/nebula-plugin)            | Автоматически запускайте сеансы Nebula в изолированных песочницах Daytona с синхронизацией git и предварительным просмотром в реальном времени |
+| [nebula-helicone-session](https://github.com/H2Shami/nebula-helicone-session)                  | Автоматически внедрять заголовки сеансов Helicone для группировки запросов                                                                       |
+| [nebula-type-inject](https://github.com/nick-vi/nebula-type-inject)                            | Автоматическое внедрение типов TypeScript/Svelte в файлы, считываемые с помощью инструментов поиска                                              |
+| [nebula-openai-codex-auth](https://github.com/numman-ali/nebula-openai-codex-auth)             | Используйте подписку ChatGPT Plus/Pro вместо кредитов API                                                                                        |
+| [nebula-gemini-auth](https://github.com/jenslys/nebula-gemini-auth)                            | Используйте существующий план Gemini вместо выставления счетов через API                                                                         |
+| [nebula-antigravity-auth](https://github.com/NoeFabris/nebula-antigravity-auth)                | Используйте бесплатные модели Antigravity вместо выставления счетов через API                                                                    |
+| [nebula-devcontainers](https://github.com/athal7/nebula-devcontainers)                         | Многоветвевая изоляция контейнеров разработки с мелкими клонами и автоматическим назначением портов                                              |
+| [nebula-google-antigravity-auth](https://github.com/shekohex/nebula-google-antigravity-auth)   | Плагин Google Antigravity OAuth с поддержкой поиска Google и более надежной обработкой API                                                       |
+| [nebula-dynamic-context-pruning](https://github.com/Tarquinen/nebula-dynamic-context-pruning)  | Оптимизируйте использование токенов за счет сокращения выходных данных устаревших инструментов                                                   |
+| [nebula-vibeguard](https://github.com/inkdust2021/nebula-vibeguard)                            | Скрывайте секреты/PII, заменяя их плейсхолдерами в стиле VibeGuard перед отправкой в LLM; восстанавливайте локально                              |
+| [nebula-websearch-cited](https://github.com/ghoulr/nebula-websearch-cited.git)                 | Добавьте встроенную поддержку веб-поиска для поддерживаемых поставщиков в стиле Google                                                           |
+| [nebula-pty](https://github.com/shekohex/nebula-pty.git)                                       | Позволяет агентам ИИ запускать фоновые процессы в PTY и отправлять им интерактивные данные                                                       |
+| [nebula-shell-strategy](https://github.com/JRedeker/nebula-shell-strategy)                     | Инструкции для неинтерактивных shell-команд — предотвращают зависания из-за операций, зависящих от TTY                                           |
+| [nebula-wakatime](https://github.com/angristan/nebula-wakatime)                                | Отслеживайте использование Nebula с помощью Wakatime                                                                                           |
+| [nebula-md-table-formatter](https://github.com/franlol/nebula-md-table-formatter/tree/main)    | Очистка таблиц Markdown, созданных LLM                                                                                                           |
+| [nebula-morph-plugin](https://github.com/morphllm/nebula-morph-plugin)                         | Редактирование Fast Apply, поиск по кодовой базе WarpGrep и сжатие контекста через Morph                                                         |
+| [oh-my-nebula](https://github.com/code-yeongyu/oh-my-nebula)                                   | Фоновые агенты, встроенные инструменты LSP/AST/MCP, курируемые агенты, совместимость с Claude Code                                               |
+| [nebula-notificator](https://github.com/panta82/nebula-notificator)                            | Уведомления на рабочем столе и звуковые оповещения для сеансов Nebula                                                                          |
+| [nebula-notifier](https://github.com/mohak34/nebula-notifier)                                  | Уведомления на рабочем столе и звуковые оповещения о разрешениях, завершении и событиях ошибок                                                   |
+| [nebula-zellij-namer](https://github.com/24601/nebula-zellij-namer)                            | Автоматическое именование сеансов Zellij на основе искусственного интеллекта на основе контекста Nebula                                        |
+| [nebula-skillful](https://github.com/zenobi-us/nebula-skillful)                                | Разрешить агентам Nebula отложенную загрузку подсказок по требованию с обнаружением и внедрением навыков                                       |
+| [nebula-supermemory](https://github.com/supermemoryai/nebula-supermemory)                      | Постоянная память между сеансами с использованием Supermemory                                                                                    |
+| [@plannotator/nebula](https://github.com/backnotprop/plannotator/tree/main/apps/nebula-plugin) | Интерактивный обзор плана с визуальными аннотациями и возможностью совместного использования в частном или автономном режиме                     |
+| [@openspoon/subtask2](https://github.com/spoons-and-mirrors/subtask2)                              | Расширьте nebula/команды до мощной системы оркестровки с детальным управлением потоком данных                                                  |
+| [nebula-scheduler](https://github.com/different-ai/nebula-scheduler)                           | Планируйте повторяющиеся задания с помощью launchd (Mac) или systemd (Linux) с синтаксисом cron                                                  |
+| [micode](https://github.com/vtemian/micode)                                                        | Структурированный мозговой штурм → План → Реализация рабочего процесса с непрерывностью сеанса                                                   |
+| [octto](https://github.com/vtemian/octto)                                                          | Интерактивный пользовательский интерфейс браузера для мозгового штурма с помощью искусственного интеллекта с формами из нескольких вопросов      |
+| [nebula-background-agents](https://github.com/kdcokenny/nebula-background-agents)              | Фоновые агенты в стиле Claude Code с асинхронным делегированием и сохранением контекста                                                          |
+| [nebula-notify](https://github.com/kdcokenny/nebula-notify)                                    | Встроенные уведомления ОС для Nebula – узнайте, когда задачи завершены                                                                         |
+| [nebula-workspace](https://github.com/kdcokenny/nebula-workspace)                              | Комплексный пакет многоагентной оркестровки — 16 компонентов, одна установка                                                                     |
+| [nebula-worktree](https://github.com/kdcokenny/nebula-worktree)                                | Рабочие деревья git с нулевым трением для Nebula                                                                                               |
+| [nebula-sentry-monitor](https://github.com/stolinski/nebula-sentry-monitor)                    | Отслеживайте и отлаживайте ваших ИИ-агентов с помощью Sentry AI Monitoring                                                                       |
+
+---
+
+## Проекты
+
+| Имя                                                                                        | Описание                                                                                      |
+| ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- |
+| [kimaki](https://github.com/remorses/kimaki)                                               | Discord-бот для управления сеансами Nebula, созданный на базе SDK                           |
+| [nebula.nvim](https://github.com/NickvanDyke/nebula.nvim)                              | Плагин Neovim для подсказок с поддержкой редактора, созданный на основе API                   |
+| [portal](https://github.com/hosenur/portal)                                                | Мобильный веб-интерфейс для Nebula через Tailscale/VPN                                      |
+| [nebula plugin template](https://github.com/zenobi-us/nebula-plugin-template/)         | Шаблон для создания плагинов Nebula                                                         |
+| [nebula.nvim](https://github.com/sudo-tee/nebula.nvim)                                 | Интерфейс Neovim для Nebula - агент кодирования искусственного интеллекта на базе терминала |
+| [ai-sdk-provider-nebula-sdk](https://github.com/ben-vargas/ai-sdk-provider-nebula-sdk) | Поставщик Vercel AI SDK для использования Nebula через @nebula-ai/sdk                     |
+| [OpenChamber](https://github.com/btriapitsyn/openchamber)                                  | Веб-приложение или настольное приложение и расширение VS Code для Nebula                    |
+| [Nebula-Obsidian](https://github.com/mtymek/nebula-obsidian)                           | Плагин Obsidian, встраивающий Nebula в пользовательский интерфейс Obsidian                  |
+| [OpenWork](https://github.com/different-ai/openwork)                                       | Альтернатива Claude Cowork с открытым исходным кодом на базе Nebula                         |
+| [ocx](https://github.com/kdcokenny/ocx)                                                    | Менеджер расширений Nebula с переносимыми изолированными профилями                          |
+| [CodeNomad](https://github.com/NeuralNomadsAI/CodeNomad)                                   | Настольное, веб-, мобильное и удаленное клиентское приложение для Nebula                    |
+
+---
+
+## Агенты
+
+| Имя                                                               | Описание                                                                  |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| [Agentic](https://github.com/Cluster444/agentic)                  | Модульные ИИ-агенты и команды для структурированной разработки            |
+| [nebula-agents](https://github.com/darrenhinde/nebula-agents) | Конфигурации, подсказки, агенты и плагины для улучшения рабочих процессов |

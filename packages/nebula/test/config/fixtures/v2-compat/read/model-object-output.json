@@ -1,0 +1,4 @@
+{
+  "$schema": "https://nebula.ai/config.json",
+  "model": "anthropic/claude-sonnet"
+}

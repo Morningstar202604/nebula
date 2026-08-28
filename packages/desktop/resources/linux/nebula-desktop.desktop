@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Nebula
+Exec=/opt/Nebula/ai.nebula.desktop %U
+Terminal=false
+Type=Application
+Icon=ai.nebula.desktop
+StartupWMClass=ai.nebula.desktop
+NoDisplay=true
+Comment=Open source AI coding agent
+Categories=Development;
