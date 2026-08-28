@@ -20,8 +20,8 @@ Options:
         --no-modify-path    Don't modify shell config files (.zshrc, .bashrc, etc.)
 
 Examples:
-    curl -fsSL https://raw.githubusercontent.com/Morningstar202604/nebula/dev/install | bash
-    curl -fsSL https://raw.githubusercontent.com/Morningstar202604/nebula/dev/install | bash -s -- --version 1.0.180
+    curl -fsSL https://raw.githubusercontent.com/Morningstar202604/nebula/main/install | bash
+    curl -fsSL https://raw.githubusercontent.com/Morningstar202604/nebula/main/install | bash -s -- --version 1.0.180
     ./install --binary /path/to/nebula
 EOF
 }

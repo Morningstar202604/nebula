@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Morningstar202604/nebula/actions/workflows/typecheck.yml"><img alt="CI" src="https://img.shields.io/github/actions/workflow/status/Morningstar202604/nebula/typecheck.yml?branch=dev&style=flat-square&label=CI"></a>
+  <a href="https://github.com/Morningstar202604/nebula/actions/workflows/typecheck.yml"><img alt="CI" src="https://img.shields.io/github/actions/workflow/status/Morningstar202604/nebula/typecheck.yml?branch=main&style=flat-square&label=CI"></a>
   <a href="https://github.com/Morningstar202604/nebula/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Morningstar202604/nebula?style=flat-square"></a>
   <a href="https://github.com/Morningstar202604/nebula/network"><img alt="Forks" src="https://img.shields.io/github/forks/Morningstar202604/nebula?style=flat-square"></a>
   <a href="https://github.com/Morningstar202604/nebula/issues"><img alt="Issues" src="https://img.shields.io/github/issues/Morningstar202604/nebula?style=flat-square"></a>
@@ -69,7 +69,7 @@ Nebula is built for real projects. It is TypeScript-first, runs fully on your ma
 ### One-liner
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Morningstar202604/nebula/dev/install | bash
+curl -fsSL https://raw.githubusercontent.com/Morningstar202604/nebula/main/install | bash
 ```
 
 ### Build from source

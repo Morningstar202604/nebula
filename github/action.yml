@@ -58,7 +58,7 @@ runs:
     - name: Install nebula
       if: steps.cache.outputs.cache-hit != 'true'
       shell: bash
-      run: curl -fsSL https://raw.githubusercontent.com/Morningstar202604/nebula/dev/install | bash
+      run: curl -fsSL https://raw.githubusercontent.com/Morningstar202604/nebula/main/install | bash
 
     - name: Add nebula to PATH
       shell: bash
