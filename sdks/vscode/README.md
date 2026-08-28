@@ -15,7 +15,7 @@ This extension requires the [nebula CLI](https://nebula.ai) to be installed on y
 
 ## Support
 
-This is an early release. If you encounter issues or have feedback, please create an issue at https://github.com/anomalyco/nebula/issues.
+This is an early release. If you encounter issues or have feedback, please create an issue at https://github.com/Morningstar202604/nebula/issues.
 
 ## Development
 

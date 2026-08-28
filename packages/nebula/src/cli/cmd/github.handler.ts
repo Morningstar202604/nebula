@@ -364,7 +364,7 @@ jobs:
           persist-credentials: false
 
       - name: Run nebula
-        uses: anomalyco/nebula/github@latest${envStr}
+        uses: Morningstar202604/nebula/github@latest${envStr}
         with:
           model: ${provider}/${model}`,
         )

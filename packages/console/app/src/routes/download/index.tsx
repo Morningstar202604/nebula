@@ -139,9 +139,9 @@ export default function Download() {
                 </code>
                 <CopyStatus />
               </button>
-              <button data-component="cli-row" onClick={handleCopyClick("brew install anomalyco/tap/nebula")}>
+              <button data-component="cli-row" onClick={handleCopyClick("brew install Morningstar202604/tap/nebula")}>
                 <code>
-                  brew install <strong>anomalyco/tap/nebula</strong>
+                  brew install <strong>Morningstar202604/tap/nebula</strong>
                 </code>
                 <CopyStatus />
               </button>

@@ -8,8 +8,8 @@ import { route, type Locale } from "../lib/language"
 export type HeaderLink = { href: string; label: string }
 
 export const githubLink = {
-  href: "https://github.com/anomalyco/nebula",
-  apiHref: "https://api.github.com/repos/anomalyco/nebula",
+  href: "https://github.com/Morningstar202604/nebula",
+  apiHref: "https://api.github.com/repos/Morningstar202604/nebula",
   fallbackStars: "195K",
 }
 export const themePreferences = ["dark", "light", "system"] as const
@@ -241,7 +241,7 @@ export function Footer(props: {
     { href: "https://nebula.ai/discord", label: i18n.t("footer.community") },
     { href: "https://x.com/nebula", label: "X" },
     { href: githubLink.href, label: i18n.t("header.github") },
-    { href: "https://www.youtube.com/@anomalyco", label: i18n.t("footer.youtube") },
+    { href: "https://www.youtube.com/@Morningstar202604", label: i18n.t("footer.youtube") },
   ]
   const bridge = () =>
     props.bridge === undefined

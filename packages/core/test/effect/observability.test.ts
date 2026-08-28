@@ -21,10 +21,10 @@ afterEach(() => {
 describe("resource", () => {
   test("parses and decodes OTEL resource attributes", () => {
     process.env.OTEL_RESOURCE_ATTRIBUTES =
-      "service.namespace=anomalyco,team=platform%2Cobservability,label=hello%3Dworld,key%2Fname=value%20here"
+      "service.namespace=Morningstar202604,team=platform%2Cobservability,label=hello%3Dworld,key%2Fname=value%20here"
 
     expect(resource().attributes).toMatchObject({
-      "service.namespace": "anomalyco",
+      "service.namespace": "Morningstar202604",
       team: "platform,observability",
       label: "hello=world",
       "key/name": "value here",
@@ -32,7 +32,7 @@ describe("resource", () => {
   })
 
   test("drops OTEL resource attributes when any entry is invalid", () => {
-    process.env.OTEL_RESOURCE_ATTRIBUTES = "service.namespace=anomalyco,broken"
+    process.env.OTEL_RESOURCE_ATTRIBUTES = "service.namespace=Morningstar202604,broken"
 
     expect(resource().attributes["service.namespace"]).toBeUndefined()
     expect(resource().attributes["nebula.client"]).toBeDefined()
@@ -41,11 +41,11 @@ describe("resource", () => {
   test("keeps built-in attributes when env values conflict", () => {
     process.env.NEBULA_CLIENT = "cli"
     process.env.OTEL_RESOURCE_ATTRIBUTES =
-      "nebula.client=web,service.instance.id=override,service.namespace=anomalyco"
+      "nebula.client=web,service.instance.id=override,service.namespace=Morningstar202604"
 
     expect(resource().attributes).toMatchObject({
       "nebula.client": "cli",
-      "service.namespace": "anomalyco",
+      "service.namespace": "Morningstar202604",
     })
     expect(resource().attributes["service.instance.id"]).not.toBe("override")
     expect(resource().attributes["nebula.run"]).toMatch(/^[0-9a-f]{8}$/)

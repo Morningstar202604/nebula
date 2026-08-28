@@ -5,7 +5,7 @@ export default {
   console: stage === "production" ? "https://nebula.ai/auth" : `https://${stage}.nebula.ai/auth`,
   email: "help@anoma.ly",
   socialCard: "https://social-cards.sst.dev",
-  github: "https://github.com/anomalyco/nebula",
+  github: "https://github.com/Morningstar202604/nebula",
   discord: "https://nebula.ai/discord",
   headerLinks: [
     { name: "app.header.home", url: "/" },

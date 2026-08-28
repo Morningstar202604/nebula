@@ -1,128 +1,149 @@
 <p align="center">
-  <a href="https://nebula.ai">
-    <picture>
-      <source srcset="packages/console/app/src/asset/logo-ornate-dark.svg" media="(prefers-color-scheme: dark)">
-      <source srcset="packages/console/app/src/asset/logo-ornate-light.svg" media="(prefers-color-scheme: light)">
-      <img src="packages/console/app/src/asset/logo-ornate-light.svg" alt="Nebula logo">
-    </picture>
-  </a>
-</p>
-<p align="center">开源的 AI Coding Agent。</p>
-<p align="center">
-  <a href="https://nebula.ai/discord"><img alt="Discord" src="https://img.shields.io/discord/1391832426048651334?style=flat-square&label=discord" /></a>
-  <a href="https://www.npmjs.com/package/nebula-ai"><img alt="npm" src="https://img.shields.io/npm/v/nebula-ai?style=flat-square" /></a>
-  <a href="https://github.com/anomalyco/nebula/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/anomalyco/nebula/publish.yml?style=flat-square&branch=dev" /></a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="packages/console/app/src/asset/logo-ornate-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="packages/console/app/src/asset/logo-ornate-light.svg">
+    <img src="packages/console/app/src/asset/logo-ornate-light.svg" width="348" height="84" alt="Nebula">
+  </picture>
 </p>
 
 <p align="center">
-  <a href="README.md">English</a> |
-  <a href="README.zh.md">简体中文</a> |
-  <a href="README.zht.md">繁體中文</a> |
-  <a href="README.ko.md">한국어</a> |
-  <a href="README.de.md">Deutsch</a> |
-  <a href="README.es.md">Español</a> |
-  <a href="README.fr.md">Français</a> |
-  <a href="README.it.md">Italiano</a> |
-  <a href="README.da.md">Dansk</a> |
-  <a href="README.ja.md">日本語</a> |
-  <a href="README.pl.md">Polski</a> |
-  <a href="README.ru.md">Русский</a> |
-  <a href="README.bs.md">Bosanski</a> |
-  <a href="README.ar.md">العربية</a> |
-  <a href="README.no.md">Norsk</a> |
-  <a href="README.br.md">Português (Brasil)</a> |
-  <a href="README.th.md">ไทย</a> |
-  <a href="README.tr.md">Türkçe</a> |
-  <a href="README.uk.md">Українська</a> |
-  <a href="README.bn.md">বাংলা</a> |
-  <a href="README.gr.md">Ελληνικά</a> |
-  <a href="README.vi.md">Tiếng Việt</a>
+  <b>运行在终端里的开源 AI 编程助手。</b>
 </p>
 
-[![Nebula Terminal UI](packages/web/src/assets/lander/screenshot.png)](https://nebula.ai)
+<p align="center">
+  <a href="https://github.com/Morningstar202604/nebula/actions/workflows/typecheck.yml"><img alt="CI" src="https://img.shields.io/github/actions/workflow/status/Morningstar202604/nebula/typecheck.yml?branch=dev&style=flat-square&label=CI"></a>
+  <a href="https://github.com/Morningstar202604/nebula/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Morningstar202604/nebula?style=flat-square"></a>
+  <a href="https://github.com/Morningstar202604/nebula/network"><img alt="Forks" src="https://img.shields.io/github/forks/Morningstar202604/nebula?style=flat-square"></a>
+  <a href="https://github.com/Morningstar202604/nebula/issues"><img alt="Issues" src="https://img.shields.io/github/issues/Morningstar202604/nebula?style=flat-square"></a>
+  <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/Morningstar202604/nebula?style=flat-square"></a>
+  <img alt="Language" src="https://img.shields.io/github/languages/top/Morningstar202604/nebula?style=flat-square">
+</p>
+
+<p align="center">
+  <a href="README.md">English</a> ·
+  <a href="README.zh.md"><b>简体中文</b></a> ·
+  <a href="README.ja.md">日本語</a> ·
+  <a href="README.zht.md">繁體中文</a> ·
+  <a href="README.ko.md">한국어</a> ·
+  <a href="README.de.md">Deutsch</a> ·
+  <a href="README.es.md">Español</a> ·
+  <a href="README.fr.md">Français</a> ·
+  <a href="README.it.md">Italiano</a> ·
+  <a href="README.ja.md">日本語</a> ·
+  <a href="README.pl.md">Polski</a> ·
+  <a href="README.ru.md">Русский</a> ·
+  <a href="README.ar.md">العربية</a>
+</p>
+
+[![Nebula 终端界面](packages/web/src/assets/lander/screenshot.png)](https://github.com/Morningstar202604/nebula)
 
 ---
 
-### 安装
+## Nebula 是什么？
+
+Nebula 是一款快速、开源的 AI 编程助手，原生运行在你的终端里。把它指向任意代码库，它就能阅读、规划、编写和重构代码——执行命令、遇到失败自动迭代，直到任务完成。你始终掌握主动权：细粒度的权限系统会在 Nebula 触碰你的命令行、文件或网络之前先征求你的同意。
+
+Nebula 为真实项目而生。它优先使用 TypeScript、完全在本地运行、并且与模型提供商解耦——自带 Anthropic、OpenAI、Google、DeepSeek、SenseNova 或任意兼容 OpenAI 协议的 API Key，其余交给 Nebula。
+
+## 为什么选择 Nebula？
+
+- **终端原生** — 无需 IDE，适配任何编辑器与工作流
+- **多端覆盖** — 丰富的 TUI、Web 界面、桌面应用与无头 API 服务
+- **天生智能体** — `build` 与 `plan` 两个内置智能体，配合子智能体深度搜索
+- **权限可控** — bash、文件修改、网络访问都经过清晰的确认提示
+- **默认私有** — 一切都在本地运行，模型由你选择，代码去向由你决定
+- **速度极快** — 基于 Bun 的 monorepo，配合响应式的 SolidJS 界面
+
+## 功能特性
+
+- **内置智能体** — `build`（完全访问）与 `plan`（只读探索），随时用 `Tab` 切换
+- **子智能体** — `@general` 处理复杂搜索与多步骤任务
+- **模型提供商** — Anthropic、OpenAI、Google Gemini、DeepSeek、SenseNova、Groq、Mistral、xAI、Ollama 及任意兼容 OpenAI 协议的服务
+- **MCP 支持** — 接入日益壮大的 Model Context Protocol 生态
+- **会话管理** — 会话可恢复、可分享、可回放
+- **服务模式** — 提供无头 HTTP API，便于脚本化与远程控制
+- **桌面应用** — 面向 macOS、Windows、Linux 的原生 Electron 应用
+
+## 安装
+
+### 一行命令
 
 ```bash
-# 直接安装 (YOLO)
-curl -fsSL https://nebula.ai/install | bash
-
-# 软件包管理器
-npm i -g nebula-ai@latest        # 也可使用 bun/pnpm/yarn
-scoop install nebula             # Windows
-choco install nebula             # Windows
-brew install anomalyco/tap/nebula # macOS 和 Linux（推荐，始终保持最新）
-brew install nebula              # macOS 和 Linux（官方 brew formula，更新频率较低）
-sudo pacman -S nebula            # Arch Linux (Stable)
-paru -S nebula-bin               # Arch Linux (Latest from AUR)
-mise use -g nebula               # 任意系统
-nix run nixpkgs#nebula           # 或用 github:anomalyco/nebula 获取最新 dev 分支
+curl -fsSL https://raw.githubusercontent.com/Morningstar202604/nebula/dev/install | bash
 ```
 
-> [!TIP]
-> 安装前请先移除 0.1.x 之前的旧版本。
-
-### 桌面应用程序 (BETA)
-
-Nebula 也提供桌面版应用。可直接从 [发布页 (releases page)](https://github.com/anomalyco/nebula/releases) 或 [nebula.ai/download](https://nebula.ai/download) 下载。
-
-| 平台                  | 下载文件                           |
-| --------------------- | ---------------------------------- |
-| macOS (Apple Silicon) | `nebula-desktop-mac-arm64.dmg`   |
-| macOS (Intel)         | `nebula-desktop-mac-x64.dmg`     |
-| Windows               | `nebula-desktop-windows-x64.exe` |
-| Linux                 | `.deb`、`.rpm` 或 AppImage         |
+### 源码构建
 
 ```bash
-# macOS (Homebrew Cask)
-brew install --cask nebula-desktop
-# Windows (Scoop)
-scoop bucket add extras; scoop install extras/nebula-desktop
+git clone https://github.com/Morningstar202604/nebula.git
+cd nebula
+bun install
+bun dev --help
 ```
 
-#### 安装目录
+Homebrew、Scoop、npm 官方包正在路上。
 
-安装脚本按照以下优先级决定安装路径：
-
-1. `$NEBULA_INSTALL_DIR` - 自定义安装目录
-2. `$XDG_BIN_DIR` - 符合 XDG 基础目录规范的路径
-3. `$HOME/bin` - 如果存在或可创建的用户二进制目录
-4. `$HOME/.nebula/bin` - 默认备用路径
+## 快速开始
 
 ```bash
-# 示例
-NEBULA_INSTALL_DIR=/usr/local/bin curl -fsSL https://nebula.ai/install | bash
-XDG_BIN_DIR=$HOME/.local/bin curl -fsSL https://nebula.ai/install | bash
+cd <你的项目>
+nebula
 ```
 
-### Agents
+Nebula 会加载你的代码库，然后询问你想做什么。例如：
 
-Nebula 内置两种 Agent，可用 `Tab` 键快速切换：
+> 给 API 服务器加一个 `/health` 接口，并补一个测试。
 
-- **build** - 默认模式，具备完整权限，适合开发工作
-- **plan** - 只读模式，适合代码分析与探索
-  - 默认拒绝修改文件
-  - 运行 bash 命令前会询问
-  - 便于探索未知代码库或规划改动
+Nebula 会规划改动、展示 diff、运行测试——在真正执行之前先征求你的同意。
 
-另外还包含一个 **general** 子 Agent，用于复杂搜索和多步任务，内部使用，也可在消息中输入 `@general` 调用。
+### 配置模型
 
-了解更多 [Agents](https://nebula.ai/docs/agents) 相关信息。
+```bash
+export ANTHROPIC_API_KEY=sk-ant-...
+nebula
+```
 
-### 文档
+或在配置中添加 SenseNova、DeepSeek、GLM 等提供商。详见[配置文档](packages/web/src/content/docs/index.mdx)。
 
-更多配置说明请查看我们的 [**官方文档**](https://nebula.ai/docs)。
+## 智能体
 
-### 参与贡献
+| 智能体 | 说明 |
+| ------ | ---- |
+| `build` | 默认智能体，完全访问权限，用于开发工作 |
+| `plan` | 只读智能体，用于分析与代码探索——默认拒绝文件修改，执行 bash 前先询问 |
 
-如有兴趣贡献代码，请在提交 PR 前阅读 [贡献指南 (Contributing Docs)](./CONTRIBUTING.md)。
+## 界面
 
-### 基于 Nebula 进行开发
+| 界面 | 说明 | 启动方式 |
+| ---- | ---- | -------- |
+| TUI | 功能完整的终端界面 | `nebula` |
+| Web UI | 浏览器聊天界面 | `nebula web` |
+| 桌面端 | 原生 Electron 应用 | `nebula-desktop` |
+| 服务端 | 无头 HTTP API | `nebula serve` |
 
-如果你在项目名中使用了 “nebula”（如 “nebula-dashboard” 或 “nebula-mobile”），请在 README 里注明该项目不是 Nebula 团队官方开发，且不存在隶属关系。
+## 架构
 
----
+Nebula 是一个依赖方向严格控制的 Bun monorepo：
 
-**加入我们的社区** [飞书](https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=52ao9352-5623-4fa0-b7dd-3407c392c1af&qr_code=true) | [X.com](https://x.com/nebula)
+- `packages/nebula` — 核心业务逻辑与 HTTP 服务
+- `packages/tui` — 终端界面（SolidJS + opentui）
+- `packages/app` — 共享 Web UI 组件
+- `packages/desktop` — Electron 桌面应用
+- `packages/sdk` — 用于二次开发的 TypeScript SDK
+- `packages/plugin` — 插件与 MCP 系统
+
+## 文档
+
+完整文档位于 [`packages/web/src/content/docs`](packages/web/src/content/docs)，涵盖配置、智能体、提供商与故障排查。
+
+## 参与贡献
+
+欢迎贡献！先阅读 [CONTRIBUTING.md](CONTRIBUTING.md)，然后：
+
+- 提交 issue，或认领 [`good first issue`](https://github.com/Morningstar202604/nebula/labels/good%20first%20issue)
+- 遵循 conventional-commit PR 规范
+- 通过 [SECURITY.md](SECURITY.md) 报告安全漏洞
+
+## 许可证
+
+[MIT](LICENSE) © Nebula contributors

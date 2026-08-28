@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://nebula.ai/discord"><img alt="Discord" src="https://img.shields.io/discord/1391832426048651334?style=flat-square&label=discord" /></a>
   <a href="https://www.npmjs.com/package/nebula-ai"><img alt="npm" src="https://img.shields.io/npm/v/nebula-ai?style=flat-square" /></a>
-  <a href="https://github.com/anomalyco/nebula/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/anomalyco/nebula/publish.yml?style=flat-square&branch=dev" /></a>
+  <a href="https://github.com/Morningstar202604/nebula/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/Morningstar202604/nebula/publish.yml?style=flat-square&branch=dev" /></a>
 </p>
 
 <p align="center">
@@ -53,12 +53,12 @@ curl -fsSL https://nebula.ai/install | bash
 npm i -g nebula-ai@latest        # oder bun/pnpm/yarn
 scoop install nebula             # Windows
 choco install nebula             # Windows
-brew install anomalyco/tap/nebula # macOS und Linux (empfohlen, immer aktuell)
+brew install Morningstar202604/tap/nebula # macOS und Linux (empfohlen, immer aktuell)
 brew install nebula              # macOS und Linux (offizielle Brew-Formula, seltener aktualisiert)
 sudo pacman -S nebula            # Arch Linux (Stable)
 paru -S nebula-bin               # Arch Linux (Latest from AUR)
 mise use -g nebula               # jedes Betriebssystem
-nix run nixpkgs#nebula           # oder github:anomalyco/nebula für den neuesten dev-Branch
+nix run nixpkgs#nebula           # oder github:Morningstar202604/nebula für den neuesten dev-Branch
 ```
 
 > [!TIP]
@@ -66,7 +66,7 @@ nix run nixpkgs#nebula           # oder github:anomalyco/nebula für den neueste
 
 ### Desktop-App (BETA)
 
-Nebula ist auch als Desktop-Anwendung verfügbar. Lade sie direkt von der [Releases-Seite](https://github.com/anomalyco/nebula/releases) oder [nebula.ai/download](https://nebula.ai/download) herunter.
+Nebula ist auch als Desktop-Anwendung verfügbar. Lade sie direkt von der [Releases-Seite](https://github.com/Morningstar202604/nebula/releases) oder [nebula.ai/download](https://nebula.ai/download) herunter.
 
 | Plattform             | Download                           |
 | --------------------- | ---------------------------------- |

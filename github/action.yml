@@ -45,7 +45,7 @@ runs:
       id: version
       shell: bash
       run: |
-        VERSION=$(curl -sf https://api.github.com/repos/anomalyco/nebula/releases/latest | grep -o '"tag_name": *"[^"]*"' | cut -d'"' -f4)
+        VERSION=$(curl -sf https://api.github.com/repos/Morningstar202604/nebula/releases/latest | grep -o '"tag_name": *"[^"]*"' | cut -d'"' -f4)
         echo "version=${VERSION:-latest}" >> $GITHUB_OUTPUT
 
     - name: Cache nebula
@@ -58,7 +58,7 @@ runs:
     - name: Install nebula
       if: steps.cache.outputs.cache-hit != 'true'
       shell: bash
-      run: curl -fsSL https://nebula.ai/install | bash
+      run: curl -fsSL https://raw.githubusercontent.com/Morningstar202604/nebula/dev/install | bash
 
     - name: Add nebula to PATH
       shell: bash

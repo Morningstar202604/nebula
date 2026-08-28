@@ -2,7 +2,7 @@
 import * as path from "path"
 import * as ts from "typescript"
 
-const BASE_DIR = "/home/thdxr/dev/projects/anomalyco/nebula/packages/nebula"
+const BASE_DIR = "/home/thdxr/dev/projects/Morningstar202604/nebula/packages/nebula"
 
 // Get entry file from command line arg or use default
 const ENTRY_FILE = process.argv[2] || "src/plugin/tui/runtime.ts"

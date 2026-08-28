@@ -149,7 +149,7 @@ describe("installation", () => {
         () => jsonResponse({ versions: { stable: "2.0.0" } }),
         (cmd, args) => {
           // getBrewFormula: return core formula (no tap)
-          if (cmd === "brew" && args.includes("--formula") && args.includes("anomalyco/tap/nebula")) return ""
+          if (cmd === "brew" && args.includes("--formula") && args.includes("Morningstar202604/tap/nebula")) return ""
           if (cmd === "brew" && args.includes("--formula") && args.includes("nebula")) return "nebula"
           return ""
         },
@@ -168,7 +168,7 @@ describe("installation", () => {
       testLayer(
         () => jsonResponse({}), // HTTP not used for tap formula
         (cmd, args) => {
-          if (cmd === "brew" && args.includes("anomalyco/tap/nebula") && args.includes("--formula")) return "nebula"
+          if (cmd === "brew" && args.includes("Morningstar202604/tap/nebula") && args.includes("--formula")) return "nebula"
           if (cmd === "brew" && args.includes("--json=v2")) return brewInfoJson
           return ""
         },

@@ -106,7 +106,7 @@ export const inferenceEvent = new sst.Linkable("InferenceEvent", {
 
 const cluster = planetscale.getDatabaseOutput({
   name: "nebula-stats",
-  organization: "anomalyco",
+  organization: "Morningstar202604",
 })
 
 const branch =

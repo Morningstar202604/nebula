@@ -281,7 +281,7 @@ export default function () {
                             <div class="flex gap-3 items-center">
                               <IconButton
                                 as={"a"}
-                                href="https://github.com/anomalyco/nebula"
+                                href="https://github.com/Morningstar202604/nebula"
                                 target="_blank"
                                 icon="github"
                                 variant="ghost"

@@ -1,6 +1,6 @@
 #!/usr/bin/env bun
 
-const repo = "anomalyco/nebula"
+const repo = "Morningstar202604/nebula"
 const days = 60
 const msg = `To stay organized issues are automatically closed after ${days} days of no activity. If the issue is still relevant please open a new one.`
 

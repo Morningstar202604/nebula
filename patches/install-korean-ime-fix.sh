@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # nebula Korean IME Fix Installer
-# https://github.com/anomalyco/nebula/issues/14371
+# https://github.com/Morningstar202604/nebula/issues/14371
 #
 # Patches nebula to prevent Korean (and other CJK) IME last character
 # truncation when pressing Enter in Kitty and other terminals.

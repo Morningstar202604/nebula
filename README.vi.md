@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://nebula.ai/discord"><img alt="Discord" src="https://img.shields.io/discord/1391832426048651334?style=flat-square&label=discord" /></a>
   <a href="https://www.npmjs.com/package/nebula-ai"><img alt="npm" src="https://img.shields.io/npm/v/nebula-ai?style=flat-square" /></a>
-  <a href="https://github.com/anomalyco/nebula/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/anomalyco/nebula/publish.yml?style=flat-square&branch=dev" /></a>
+  <a href="https://github.com/Morningstar202604/nebula/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/Morningstar202604/nebula/publish.yml?style=flat-square&branch=dev" /></a>
 </p>
 
 <p align="center">
@@ -53,12 +53,12 @@ curl -fsSL https://nebula.ai/install | bash
 npm i -g nebula-ai@latest        # hoặc bun/pnpm/yarn
 scoop install nebula             # Windows
 choco install nebula             # Windows
-brew install anomalyco/tap/nebula # macOS và Linux (khuyên dùng, luôn cập nhật)
+brew install Morningstar202604/tap/nebula # macOS và Linux (khuyên dùng, luôn cập nhật)
 brew install nebula              # macOS và Linux (công thức brew chính thức, ít cập nhật hơn)
 sudo pacman -S nebula            # Arch Linux (Bản ổn định)
 paru -S nebula-bin               # Arch Linux (Bản mới nhất từ AUR)
 mise use -g nebula               # Mọi hệ điều hành
-nix run nixpkgs#nebula           # hoặc github:anomalyco/nebula cho nhánh dev mới nhất
+nix run nixpkgs#nebula           # hoặc github:Morningstar202604/nebula cho nhánh dev mới nhất
 ```
 
 > [!TIP]
@@ -66,7 +66,7 @@ nix run nixpkgs#nebula           # hoặc github:anomalyco/nebula cho nhánh dev
 
 ### Ứng dụng Desktop (BETA)
 
-Nebula cũng có sẵn dưới dạng ứng dụng desktop. Tải trực tiếp từ [trang releases](https://github.com/anomalyco/nebula/releases) hoặc [nebula.ai/download](https://nebula.ai/download).
+Nebula cũng có sẵn dưới dạng ứng dụng desktop. Tải trực tiếp từ [trang releases](https://github.com/Morningstar202604/nebula/releases) hoặc [nebula.ai/download](https://nebula.ai/download).
 
 | Nền tảng              | Tải xuống                          |
 | --------------------- | ---------------------------------- |

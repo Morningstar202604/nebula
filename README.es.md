@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://nebula.ai/discord"><img alt="Discord" src="https://img.shields.io/discord/1391832426048651334?style=flat-square&label=discord" /></a>
   <a href="https://www.npmjs.com/package/nebula-ai"><img alt="npm" src="https://img.shields.io/npm/v/nebula-ai?style=flat-square" /></a>
-  <a href="https://github.com/anomalyco/nebula/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/anomalyco/nebula/publish.yml?style=flat-square&branch=dev" /></a>
+  <a href="https://github.com/Morningstar202604/nebula/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/Morningstar202604/nebula/publish.yml?style=flat-square&branch=dev" /></a>
 </p>
 
 <p align="center">
@@ -53,12 +53,12 @@ curl -fsSL https://nebula.ai/install | bash
 npm i -g nebula-ai@latest        # o bun/pnpm/yarn
 scoop install nebula             # Windows
 choco install nebula             # Windows
-brew install anomalyco/tap/nebula # macOS y Linux (recomendado, siempre al día)
+brew install Morningstar202604/tap/nebula # macOS y Linux (recomendado, siempre al día)
 brew install nebula              # macOS y Linux (fórmula oficial de brew, se actualiza menos)
 sudo pacman -S nebula            # Arch Linux (Stable)
 paru -S nebula-bin               # Arch Linux (Latest from AUR)
 mise use -g nebula               # cualquier sistema
-nix run nixpkgs#nebula           # o github:anomalyco/nebula para la rama dev más reciente
+nix run nixpkgs#nebula           # o github:Morningstar202604/nebula para la rama dev más reciente
 ```
 
 > [!TIP]
@@ -66,7 +66,7 @@ nix run nixpkgs#nebula           # o github:anomalyco/nebula para la rama dev m�
 
 ### App de escritorio (BETA)
 
-Nebula también está disponible como aplicación de escritorio. Descárgala directamente desde la [página de releases](https://github.com/anomalyco/nebula/releases) o desde [nebula.ai/download](https://nebula.ai/download).
+Nebula también está disponible como aplicación de escritorio. Descárgala directamente desde la [página de releases](https://github.com/Morningstar202604/nebula/releases) o desde [nebula.ai/download](https://nebula.ai/download).
 
 | Plataforma            | Descarga                           |
 | --------------------- | ---------------------------------- |

@@ -3,7 +3,7 @@ description: "find issue(s) on github"
 model: nebula/claude-haiku-4-5
 ---
 
-Search through existing issues in anomalyco/nebula using the gh cli to find issues matching this query:
+Search through existing issues in Morningstar202604/nebula using the gh cli to find issues matching this query:
 
 $ARGUMENTS
 

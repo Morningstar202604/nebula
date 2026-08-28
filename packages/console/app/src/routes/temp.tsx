@@ -161,7 +161,7 @@ export default function Home() {
             <a href="https://x.com/nebula">{i18n.t("footer.x")}</a>
           </div>
           <div data-slot="cell">
-            <a href="https://github.com/anomalyco/nebula">{i18n.t("footer.github")}</a>
+            <a href="https://github.com/Morningstar202604/nebula">{i18n.t("footer.github")}</a>
           </div>
           <div data-slot="cell">
             <a href="https://nebula.ai/discord">{i18n.t("footer.discord")}</a>

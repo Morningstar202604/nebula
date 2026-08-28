@@ -143,7 +143,7 @@ export default function Home() {
                     <button data-copy data-slot="command" onClick={handleCopyClick}>
                       <span>
                         <span data-slot="protocol">brew install </span>
-                        <span data-slot="highlight">anomalyco/tap/nebula</span>
+                        <span data-slot="highlight">Morningstar202604/tap/nebula</span>
                       </span>
                       <CopyStatus />
                     </button>

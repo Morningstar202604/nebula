@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://nebula.ai/discord"><img alt="Discord" src="https://img.shields.io/discord/1391832426048651334?style=flat-square&label=discord" /></a>
   <a href="https://www.npmjs.com/package/nebula-ai"><img alt="npm" src="https://img.shields.io/npm/v/nebula-ai?style=flat-square" /></a>
-  <a href="https://github.com/anomalyco/nebula/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/anomalyco/nebula/publish.yml?style=flat-square&branch=dev" /></a>
+  <a href="https://github.com/Morningstar202604/nebula/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/Morningstar202604/nebula/publish.yml?style=flat-square&branch=dev" /></a>
 </p>
 
 <p align="center">
@@ -53,12 +53,12 @@ curl -fsSL https://nebula.ai/install | bash
 npm i -g nebula-ai@latest        # او bun/pnpm/yarn
 scoop install nebula             # Windows
 choco install nebula             # Windows
-brew install anomalyco/tap/nebula # macOS و Linux (موصى به، دائما محدث)
+brew install Morningstar202604/tap/nebula # macOS و Linux (موصى به، دائما محدث)
 brew install nebula              # macOS و Linux (صيغة brew الرسمية، تحديث اقل)
 sudo pacman -S nebula            # Arch Linux (Stable)
 paru -S nebula-bin               # Arch Linux (Latest from AUR)
 mise use -g nebula               # اي نظام
-nix run nixpkgs#nebula           # او github:anomalyco/nebula لاحدث فرع dev
+nix run nixpkgs#nebula           # او github:Morningstar202604/nebula لاحدث فرع dev
 ```
 
 > [!TIP]
@@ -66,7 +66,7 @@ nix run nixpkgs#nebula           # او github:anomalyco/nebula لاحدث فر�
 
 ### تطبيق سطح المكتب (BETA)
 
-يتوفر Nebula ايضا كتطبيق سطح مكتب. قم بالتنزيل مباشرة من [صفحة الاصدارات](https://github.com/anomalyco/nebula/releases) او من [nebula.ai/download](https://nebula.ai/download).
+يتوفر Nebula ايضا كتطبيق سطح مكتب. قم بالتنزيل مباشرة من [صفحة الاصدارات](https://github.com/Morningstar202604/nebula/releases) او من [nebula.ai/download](https://nebula.ai/download).
 
 | المنصة                | التنزيل                            |
 | --------------------- | ---------------------------------- |

@@ -2,8 +2,8 @@
 
 ## Sources
 
-- PR #10809: https://github.com/anomalyco/nebula/pull/10809
-- PR #11496: https://github.com/anomalyco/nebula/pull/11496
+- PR #10809: https://github.com/Morningstar202604/nebula/pull/10809
+- PR #11496: https://github.com/Morningstar202604/nebula/pull/11496
 
 ## Do Not Translate (Locale Additions)
 

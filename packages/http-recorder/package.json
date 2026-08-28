@@ -7,11 +7,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anomalyco/nebula.git",
+    "url": "git+https://github.com/Morningstar202604/nebula.git",
     "directory": "packages/http-recorder"
   },
-  "homepage": "https://github.com/anomalyco/nebula/tree/dev/packages/http-recorder",
-  "bugs": "https://github.com/anomalyco/nebula/issues",
+  "homepage": "https://github.com/Morningstar202604/nebula/tree/dev/packages/http-recorder",
+  "bugs": "https://github.com/Morningstar202604/nebula/issues",
   "keywords": [
     "effect",
     "http",

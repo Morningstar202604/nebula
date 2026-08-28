@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://nebula.ai/discord"><img alt="Discord" src="https://img.shields.io/discord/1391832426048651334?style=flat-square&label=discord" /></a>
   <a href="https://www.npmjs.com/package/nebula-ai"><img alt="npm" src="https://img.shields.io/npm/v/nebula-ai?style=flat-square" /></a>
-  <a href="https://github.com/anomalyco/nebula/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/anomalyco/nebula/publish.yml?style=flat-square&branch=dev" /></a>
+  <a href="https://github.com/Morningstar202604/nebula/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/Morningstar202604/nebula/publish.yml?style=flat-square&branch=dev" /></a>
 </p>
 
 <p align="center">
@@ -53,12 +53,12 @@ curl -fsSL https://nebula.ai/install | bash
 npm i -g nebula-ai@latest        # albo bun/pnpm/yarn
 scoop install nebula             # Windows
 choco install nebula             # Windows
-brew install anomalyco/tap/nebula # macOS i Linux (polecane, zawsze aktualne)
+brew install Morningstar202604/tap/nebula # macOS i Linux (polecane, zawsze aktualne)
 brew install nebula              # macOS i Linux (oficjalna formuła brew, rzadziej aktualizowana)
 sudo pacman -S nebula            # Arch Linux (Stable)
 paru -S nebula-bin               # Arch Linux (Latest from AUR)
 mise use -g nebula               # dowolny system
-nix run nixpkgs#nebula           # lub github:anomalyco/nebula dla najnowszej gałęzi dev
+nix run nixpkgs#nebula           # lub github:Morningstar202604/nebula dla najnowszej gałęzi dev
 ```
 
 > [!TIP]
@@ -66,7 +66,7 @@ nix run nixpkgs#nebula           # lub github:anomalyco/nebula dla najnowszej ga
 
 ### Aplikacja desktopowa (BETA)
 
-Nebula jest także dostępny jako aplikacja desktopowa. Pobierz ją bezpośrednio ze strony [releases](https://github.com/anomalyco/nebula/releases) lub z [nebula.ai/download](https://nebula.ai/download).
+Nebula jest także dostępny jako aplikacja desktopowa. Pobierz ją bezpośrednio ze strony [releases](https://github.com/Morningstar202604/nebula/releases) lub z [nebula.ai/download](https://nebula.ai/download).
 
 | Platforma             | Pobieranie                         |
 | --------------------- | ---------------------------------- |

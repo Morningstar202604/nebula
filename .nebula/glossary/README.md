@@ -33,7 +33,7 @@ Prefer guidance that is:
 
 ## Sources
 
-- PR #12345: https://github.com/anomalyco/nebula/pull/12345
+- PR #12345: https://github.com/Morningstar202604/nebula/pull/12345
 
 ## Do Not Translate (Locale Additions)
 

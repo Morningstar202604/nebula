@@ -1,129 +1,149 @@
 <p align="center">
-  <a href="https://nebula.ai">
-    <picture>
-      <source srcset="packages/console/app/src/asset/logo-ornate-dark.svg" media="(prefers-color-scheme: dark)">
-      <source srcset="packages/console/app/src/asset/logo-ornate-light.svg" media="(prefers-color-scheme: light)">
-      <img src="packages/console/app/src/asset/logo-ornate-light.svg" alt="Nebula logo">
-    </picture>
-  </a>
-</p>
-<p align="center">The open source AI coding agent.</p>
-<p align="center">
-  <a href="https://nebula.ai/discord"><img alt="Discord" src="https://img.shields.io/discord/1391832426048651334?style=flat-square&label=discord" /></a>
-  <a href="https://www.npmjs.com/package/nebula-ai"><img alt="npm" src="https://img.shields.io/npm/v/nebula-ai?style=flat-square" /></a>
-  <a href="https://github.com/anomalyco/nebula/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/anomalyco/nebula/publish.yml?style=flat-square&branch=dev" /></a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="packages/console/app/src/asset/logo-ornate-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="packages/console/app/src/asset/logo-ornate-light.svg">
+    <img src="packages/console/app/src/asset/logo-ornate-light.svg" width="348" height="84" alt="Nebula">
+  </picture>
 </p>
 
 <p align="center">
-  <a href="README.md">English</a> |
-  <a href="README.zh.md">简体中文</a> |
-  <a href="README.zht.md">繁體中文</a> |
-  <a href="README.ko.md">한국어</a> |
-  <a href="README.de.md">Deutsch</a> |
-  <a href="README.es.md">Español</a> |
-  <a href="README.fr.md">Français</a> |
-  <a href="README.it.md">Italiano</a> |
-  <a href="README.da.md">Dansk</a> |
-  <a href="README.ja.md">日本語</a> |
-  <a href="README.pl.md">Polski</a> |
-  <a href="README.ru.md">Русский</a> |
-  <a href="README.bs.md">Bosanski</a> |
-  <a href="README.ar.md">العربية</a> |
-  <a href="README.no.md">Norsk</a> |
-  <a href="README.br.md">Português (Brasil)</a> |
-  <a href="README.th.md">ไทย</a> |
-  <a href="README.tr.md">Türkçe</a> |
-  <a href="README.uk.md">Українська</a> |
-  <a href="README.bn.md">বাংলা</a> |
-  <a href="README.gr.md">Ελληνικά</a> |
-  <a href="README.vi.md">Tiếng Việt</a>
+  <b>The open source AI coding agent that lives in your terminal.</b>
 </p>
 
-[![Nebula Terminal UI](packages/web/src/assets/lander/screenshot.png)](https://nebula.ai)
+<p align="center">
+  <a href="https://github.com/Morningstar202604/nebula/actions/workflows/typecheck.yml"><img alt="CI" src="https://img.shields.io/github/actions/workflow/status/Morningstar202604/nebula/typecheck.yml?branch=dev&style=flat-square&label=CI"></a>
+  <a href="https://github.com/Morningstar202604/nebula/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Morningstar202604/nebula?style=flat-square"></a>
+  <a href="https://github.com/Morningstar202604/nebula/network"><img alt="Forks" src="https://img.shields.io/github/forks/Morningstar202604/nebula?style=flat-square"></a>
+  <a href="https://github.com/Morningstar202604/nebula/issues"><img alt="Issues" src="https://img.shields.io/github/issues/Morningstar202604/nebula?style=flat-square"></a>
+  <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/Morningstar202604/nebula?style=flat-square"></a>
+  <img alt="Language" src="https://img.shields.io/github/languages/top/Morningstar202604/nebula?style=flat-square">
+</p>
+
+<p align="center">
+  <a href="README.md"><b>English</b></a> ·
+  <a href="README.zh.md">简体中文</a> ·
+  <a href="README.ja.md">日本語</a> ·
+  <a href="README.zht.md">繁體中文</a> ·
+  <a href="README.ko.md">한국어</a> ·
+  <a href="README.de.md">Deutsch</a> ·
+  <a href="README.es.md">Español</a> ·
+  <a href="README.fr.md">Français</a> ·
+  <a href="README.it.md">Italiano</a> ·
+  <a href="README.ja.md">日本語</a> ·
+  <a href="README.pl.md">Polski</a> ·
+  <a href="README.ru.md">Русский</a> ·
+  <a href="README.ar.md">العربية</a>
+</p>
+
+[![Nebula terminal UI](packages/web/src/assets/lander/screenshot.png)](https://github.com/Morningstar202604/nebula)
 
 ---
 
-### Installation
+## What is Nebula?
+
+Nebula is a fast, open source AI coding agent that runs natively in your terminal. Point it at any codebase and it reads, plans, writes, and refactors code — executing commands and iterating on failures until the job is done. You stay in the driver's seat: a fine-grained permission system asks before Nebula touches your shell, your files, or the network.
+
+Nebula is built for real projects. It is TypeScript-first, runs fully on your machine, and is provider-agnostic — bring your own API key for Anthropic, OpenAI, Google, DeepSeek, SenseNova, or any OpenAI-compatible endpoint, and Nebula handles the rest.
+
+## Why Nebula?
+
+- **Terminal-native** — no IDE required; works with any editor and any workflow
+- **Multi-surface** — a rich TUI, a web UI, a desktop app, and a headless API server
+- **Agentic by design** — `build` and `plan` agents with tool use, plus subagents for deep searches
+- **Permission-aware** — bash, file edits, and web access are gated behind clear prompts
+- **Private by default** — everything runs locally; you choose the model and decide where your code goes
+- **Blazing fast** — a Bun-native monorepo with a reactive SolidJS interface
+
+## Features
+
+- **Built-in agents** — `build` (full access) and `plan` (read-only exploration), switch anytime with `Tab`
+- **Subagents** — `@general` handles complex searches and multi-step tasks
+- **Model providers** — Anthropic, OpenAI, Google Gemini, DeepSeek, SenseNova, Groq, Mistral, xAI, Ollama, and any OpenAI-compatible endpoint
+- **MCP support** — plug into the growing Model Context Protocol ecosystem
+- **Session management** — resume, share, and replay past sessions
+- **Server mode** — a headless HTTP API for scripting and remote control
+- **Desktop app** — a native Electron wrapper for macOS, Windows, and Linux
+
+## Installation
+
+### One-liner
 
 ```bash
-# YOLO
-curl -fsSL https://nebula.ai/install | bash
-
-# Package managers
-npm i -g nebula-ai@latest        # or bun/pnpm/yarn
-scoop install nebula             # Windows
-choco install nebula             # Windows
-brew install anomalyco/tap/nebula # macOS and Linux (recommended, always up to date)
-brew install nebula              # macOS and Linux (official brew formula, updated less)
-sudo pacman -S nebula            # Arch Linux (Stable)
-paru -S nebula-bin               # Arch Linux (Latest from AUR)
-mise use -g nebula               # Any OS
-nix run nixpkgs#nebula           # or github:anomalyco/nebula for latest dev branch
+curl -fsSL https://raw.githubusercontent.com/Morningstar202604/nebula/dev/install | bash
 ```
 
-> [!TIP]
-> Remove versions older than 0.1.x before installing.
-
-### Desktop App (BETA)
-
-Nebula is also available as a desktop application. Download directly from the [releases page](https://github.com/anomalyco/nebula/releases) or [nebula.ai/download](https://nebula.ai/download).
-
-| Platform              | Download                           |
-| --------------------- | ---------------------------------- |
-| macOS (Apple Silicon) | `nebula-desktop-mac-arm64.dmg`   |
-| macOS (Intel)         | `nebula-desktop-mac-x64.dmg`     |
-| Windows               | `nebula-desktop-windows-x64.exe` |
-| Linux                 | `.deb`, `.rpm`, or `.AppImage`     |
+### Build from source
 
 ```bash
-# macOS (Homebrew)
-brew install --cask nebula-desktop
-# Windows (Scoop)
-scoop bucket add extras; scoop install extras/nebula-desktop
+git clone https://github.com/Morningstar202604/nebula.git
+cd nebula
+bun install
+bun dev --help
 ```
 
-#### Installation Directory
+Official packages for Homebrew, Scoop, and npm are on the way.
 
-The install script respects the following priority order for the installation path:
-
-1. `$NEBULA_INSTALL_DIR` - Custom installation directory
-2. `$XDG_BIN_DIR` - XDG Base Directory Specification compliant path
-3. `$HOME/bin` - Standard user binary directory (if it exists or can be created)
-4. `$HOME/.nebula/bin` - Default fallback
+## Getting started
 
 ```bash
-# Examples
-NEBULA_INSTALL_DIR=/usr/local/bin curl -fsSL https://nebula.ai/install | bash
-XDG_BIN_DIR=$HOME/.local/bin curl -fsSL https://nebula.ai/install | bash
+cd <your-project>
+nebula
 ```
 
-### Agents
+Nebula loads your codebase, then asks what you'd like to do. For example:
 
-Nebula includes two built-in agents you can switch between with the `Tab` key.
+> Add a `/health` endpoint to the API server and a test for it.
 
-- **build** - Default, full-access agent for development work
-- **plan** - Read-only agent for analysis and code exploration
-  - Denies file edits by default
-  - Asks permission before running bash commands
-  - Ideal for exploring unfamiliar codebases or planning changes
+Nebula plans the change, shows you the diff, and runs the tests — asking permission before it executes anything.
 
-Also included is a **general** subagent for complex searches and multistep tasks.
-This is used internally and can be invoked using `@general` in messages.
+### Configure a model
 
-Learn more about [agents](https://nebula.ai/docs/agents).
+```bash
+export ANTHROPIC_API_KEY=sk-ant-...
+nebula
+```
 
-### Documentation
+Or add a provider to your config for SenseNova, DeepSeek, GLM, and more. See the [configuration docs](packages/web/src/content/docs/index.mdx).
 
-For more info on how to configure Nebula, [**head over to our docs**](https://nebula.ai/docs).
+## Agents
 
-### Contributing
+| Agent | Description |
+| ----- | ----------- |
+| `build` | Default, full-access agent for development work |
+| `plan` | Read-only agent for analysis and code exploration — denies file edits by default, asks before running bash |
 
-If you're interested in contributing to Nebula, please read our [contributing docs](./CONTRIBUTING.md) before submitting a pull request.
+## Interfaces
 
-### Building on Nebula
+| Interface | Description | Start with |
+| --------- | ----------- | ---------- |
+| TUI | Full-featured terminal UI | `nebula` |
+| Web UI | Browser-based chat | `nebula web` |
+| Desktop | Native Electron app | `nebula-desktop` |
+| Server | Headless HTTP API | `nebula serve` |
 
-If you are working on a project that's related to Nebula and is using "nebula" as part of its name, for example "nebula-dashboard" or "nebula-mobile", please add a note to your README to clarify that it is not built by the Nebula team and is not affiliated with us in any way.
+## Architecture
 
----
+Nebula is a Bun monorepo with strictly directed dependencies:
 
-**Join our community** [Discord](https://discord.gg/nebula) | [X.com](https://x.com/nebula)
+- `packages/nebula` — core business logic and HTTP server
+- `packages/tui` — terminal UI (SolidJS + opentui)
+- `packages/app` — shared web UI components
+- `packages/desktop` — Electron desktop app
+- `packages/sdk` — TypeScript SDK for building on Nebula
+- `packages/plugin` — plugin and MCP system
+
+## Documentation
+
+Full documentation lives in [`packages/web/src/content/docs`](packages/web/src/content/docs), covering configuration, agents, providers, and troubleshooting.
+
+## Contributing
+
+Contributions are welcome! Start with [CONTRIBUTING.md](CONTRIBUTING.md), then:
+
+- Open an issue or grab a [`good first issue`](https://github.com/Morningstar202604/nebula/labels/good%20first%20issue)
+- Follow our conventional-commit PR standards
+- Report vulnerabilities via [SECURITY.md](SECURITY.md)
+
+## License
+
+[MIT](LICENSE) © Nebula contributors

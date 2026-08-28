@@ -123,8 +123,8 @@ const layer: Layer.Layer<Service, never, HttpClient.HttpClient | AppProcess.Serv
     )
 
     const getBrewFormula = Effect.fnUntraced(function* () {
-      const tapFormula = yield* text(["brew", "list", "--formula", "anomalyco/tap/nebula"])
-      if (tapFormula.includes("nebula")) return "anomalyco/tap/nebula"
+      const tapFormula = yield* text(["brew", "list", "--formula", "Morningstar202604/tap/nebula"])
+      if (tapFormula.includes("nebula")) return "Morningstar202604/tap/nebula"
       const coreFormula = yield* text(["brew", "list", "--formula", "nebula"])
       if (coreFormula.includes("nebula")) return "nebula"
       return "nebula"
@@ -255,7 +255,7 @@ const layer: Layer.Layer<Service, never, HttpClient.HttpClient | AppProcess.Serv
         }
 
         const response = yield* httpOk.execute(
-          HttpClientRequest.get("https://api.github.com/repos/anomalyco/nebula/releases/latest").pipe(
+          HttpClientRequest.get("https://api.github.com/repos/Morningstar202604/nebula/releases/latest").pipe(
             HttpClientRequest.acceptJson,
           ),
         )
@@ -281,12 +281,12 @@ const layer: Layer.Layer<Service, never, HttpClient.HttpClient | AppProcess.Serv
             const formula = yield* getBrewFormula()
             const env = { HOMEBREW_NO_AUTO_UPDATE: "1" }
             if (formula.includes("/")) {
-              const tap = yield* run(["brew", "tap", "anomalyco/tap"], { env })
+              const tap = yield* run(["brew", "tap", "Morningstar202604/tap"], { env })
               if (tap.code !== 0) {
                 upgradeResult = tap
                 break
               }
-              const repo = yield* text(["brew", "--repo", "anomalyco/tap"])
+              const repo = yield* text(["brew", "--repo", "Morningstar202604/tap"])
               const dir = repo.trim()
               if (dir) {
                 const pull = yield* run(["git", "pull", "--ff-only"], { cwd: dir, env })

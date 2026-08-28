@@ -10,7 +10,7 @@ const lake = deployAws ? await import("./lake") : undefined
 
 const cluster = planetscale.getDatabaseOutput({
   name: "nebula",
-  organization: "anomalyco",
+  organization: "Morningstar202604",
 })
 
 const branch =

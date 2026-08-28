@@ -7,7 +7,7 @@ export const config = {
 
   // GitHub
   github: {
-    repoUrl: "https://github.com/anomalyco/nebula",
+    repoUrl: "https://github.com/Morningstar202604/nebula",
     starsFormatted: {
       compact: "195K",
       full: "195,000",

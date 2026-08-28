@@ -1,6 +1,6 @@
 export async function GET() {
   const response = await fetch(
-    "https://raw.githubusercontent.com/anomalyco/nebula/refs/heads/dev/packages/sdk/openapi.json",
+    "https://raw.githubusercontent.com/Morningstar202604/nebula/refs/heads/dev/packages/sdk/openapi.json",
   )
   const json = await response.json()
   return json

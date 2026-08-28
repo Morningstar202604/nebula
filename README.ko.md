@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://nebula.ai/discord"><img alt="Discord" src="https://img.shields.io/discord/1391832426048651334?style=flat-square&label=discord" /></a>
   <a href="https://www.npmjs.com/package/nebula-ai"><img alt="npm" src="https://img.shields.io/npm/v/nebula-ai?style=flat-square" /></a>
-  <a href="https://github.com/anomalyco/nebula/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/anomalyco/nebula/publish.yml?style=flat-square&branch=dev" /></a>
+  <a href="https://github.com/Morningstar202604/nebula/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/Morningstar202604/nebula/publish.yml?style=flat-square&branch=dev" /></a>
 </p>
 
 <p align="center">
@@ -53,12 +53,12 @@ curl -fsSL https://nebula.ai/install | bash
 npm i -g nebula-ai@latest        # bun/pnpm/yarn 도 가능
 scoop install nebula             # Windows
 choco install nebula             # Windows
-brew install anomalyco/tap/nebula # macOS 및 Linux (권장, 항상 최신)
+brew install Morningstar202604/tap/nebula # macOS 및 Linux (권장, 항상 최신)
 brew install nebula              # macOS 및 Linux (공식 brew formula, 업데이트 빈도 낮음)
 sudo pacman -S nebula            # Arch Linux (Stable)
 paru -S nebula-bin               # Arch Linux (Latest from AUR)
 mise use -g nebula               # 어떤 OS든
-nix run nixpkgs#nebula           # 또는 github:anomalyco/nebula 로 최신 dev 브랜치
+nix run nixpkgs#nebula           # 또는 github:Morningstar202604/nebula 로 최신 dev 브랜치
 ```
 
 > [!TIP]
@@ -66,7 +66,7 @@ nix run nixpkgs#nebula           # 또는 github:anomalyco/nebula 로 최신 dev
 
 ### 데스크톱 앱 (BETA)
 
-Nebula 는 데스크톱 앱으로도 제공됩니다. [releases page](https://github.com/anomalyco/nebula/releases) 에서 직접 다운로드하거나 [nebula.ai/download](https://nebula.ai/download) 를 이용하세요.
+Nebula 는 데스크톱 앱으로도 제공됩니다. [releases page](https://github.com/Morningstar202604/nebula/releases) 에서 직접 다운로드하거나 [nebula.ai/download](https://nebula.ai/download) 를 이용하세요.
 
 | 플랫폼                | 다운로드                           |
 | --------------------- | ---------------------------------- |

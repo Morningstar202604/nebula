@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://nebula.ai/discord"><img alt="Discord" src="https://img.shields.io/discord/1391832426048651334?style=flat-square&label=discord" /></a>
   <a href="https://www.npmjs.com/package/nebula-ai"><img alt="npm" src="https://img.shields.io/npm/v/nebula-ai?style=flat-square" /></a>
-  <a href="https://github.com/anomalyco/nebula/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/anomalyco/nebula/publish.yml?style=flat-square&branch=dev" /></a>
+  <a href="https://github.com/Morningstar202604/nebula/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/Morningstar202604/nebula/publish.yml?style=flat-square&branch=dev" /></a>
 </p>
 
 <p align="center">
@@ -53,12 +53,12 @@ curl -fsSL https://nebula.ai/install | bash
 npm i -g nebula-ai@latest        # 也可使用 bun/pnpm/yarn
 scoop install nebula             # Windows
 choco install nebula             # Windows
-brew install anomalyco/tap/nebula # macOS 與 Linux（推薦，始終保持最新）
+brew install Morningstar202604/tap/nebula # macOS 與 Linux（推薦，始終保持最新）
 brew install nebula              # macOS 與 Linux（官方 brew formula，更新頻率較低）
 sudo pacman -S nebula            # Arch Linux (Stable)
 paru -S nebula-bin               # Arch Linux (Latest from AUR)
 mise use -g nebula               # 任何作業系統
-nix run nixpkgs#nebula           # 或使用 github:anomalyco/nebula 以取得最新開發分支
+nix run nixpkgs#nebula           # 或使用 github:Morningstar202604/nebula 以取得最新開發分支
 ```
 
 > [!TIP]
@@ -66,7 +66,7 @@ nix run nixpkgs#nebula           # 或使用 github:anomalyco/nebula 以取得�
 
 ### 桌面應用程式 (BETA)
 
-Nebula 也提供桌面版應用程式。您可以直接從 [發佈頁面 (releases page)](https://github.com/anomalyco/nebula/releases) 或 [nebula.ai/download](https://nebula.ai/download) 下載。
+Nebula 也提供桌面版應用程式。您可以直接從 [發佈頁面 (releases page)](https://github.com/Morningstar202604/nebula/releases) 或 [nebula.ai/download](https://nebula.ai/download) 下載。
 
 | 平台                  | 下載連結                           |
 | --------------------- | ---------------------------------- |

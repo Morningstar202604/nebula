@@ -2,7 +2,7 @@
 
 import { parseArgs } from "util"
 
-const defaultRepo = "anomalyco/nebula"
+const defaultRepo = "Morningstar202604/nebula"
 const defaultAgeMonths = 1
 const defaultThreshold = 2
 const defaultSleepMs = 20_000

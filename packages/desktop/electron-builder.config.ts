@@ -138,7 +138,7 @@ function getConfig() {
         appId,
         productName: "Nebula Beta",
         protocols: { name: "Nebula Beta", schemes: ["nebula"] },
-        publish: { provider: "github", owner: "anomalyco", repo: "nebula-beta", channel: "latest" },
+        publish: { provider: "github", owner: "Morningstar202604", repo: "nebula-beta", channel: "latest" },
         deb: { fpm: [metainfoFpm(appId)] },
         rpm: { packageName: "nebula-beta", fpm: [metainfoFpm(appId)] },
       }
@@ -149,7 +149,7 @@ function getConfig() {
         appId,
         productName: "Nebula",
         protocols: { name: "Nebula", schemes: ["nebula"] },
-        publish: { provider: "github", owner: "anomalyco", repo: "nebula", channel: "latest" },
+        publish: { provider: "github", owner: "Morningstar202604", repo: "nebula", channel: "latest" },
         deb: { fpm: [metainfoFpm(appId), legacyDesktopEntryFpm] },
         rpm: { packageName: "nebula", fpm: [metainfoFpm(appId), legacyDesktopEntryFpm] },
       }
