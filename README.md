@@ -22,17 +22,7 @@
 <p align="center">
   <a href="README.md"><b>English</b></a> ·
   <a href="README.zh.md">简体中文</a> ·
-  <a href="README.ja.md">日本語</a> ·
-  <a href="README.zht.md">繁體中文</a> ·
-  <a href="README.ko.md">한국어</a> ·
-  <a href="README.de.md">Deutsch</a> ·
-  <a href="README.es.md">Español</a> ·
-  <a href="README.fr.md">Français</a> ·
-  <a href="README.it.md">Italiano</a> ·
-  <a href="README.ja.md">日本語</a> ·
-  <a href="README.pl.md">Polski</a> ·
-  <a href="README.ru.md">Русский</a> ·
-  <a href="README.ar.md">العربية</a>
+  <a href="README.ja.md">日本語</a>
 </p>
 
 [![Nebula terminal UI](packages/web/src/assets/lander/screenshot.png)](https://github.com/Morningstar202604/nebula)
@@ -146,4 +136,4 @@ Contributions are welcome! Start with [CONTRIBUTING.md](CONTRIBUTING.md), then:
 
 ## License
 
-[MIT](LICENSE) © Nebula contributors
+[MIT](LICENSE) © Morningstar202604
