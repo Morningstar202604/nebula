@@ -1,6 +1,6 @@
 {
   "name": "@nebula-ai/app",
-  "version": "1.18.25",
+  "version": "0.18.25",
   "description": "",
   "type": "module",
   "exports": {
