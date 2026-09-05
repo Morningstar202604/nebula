@@ -2,7 +2,7 @@
   "name": "nebula",
   "displayName": "nebula",
   "description": "nebula for VS Code",
-  "version": "1.18.25",
+  "version": "0.18.25",
   "publisher": "sst-dev",
   "repository": {
     "type": "git",
